@@ -1,0 +1,187 @@
+{
+  "quizzes": [
+    {
+      "name": "PCD-Threads",
+      "questions": [
+        {
+          "question": "O que é uma thread em Java?",
+          "points": 5,
+          "correct": 3,
+          "type": "individual",
+          "options": [
+            "Um processo independente",
+            "Uma aplicação completa",
+            "Um programa executável",
+            "Um processo ligeiro (lightweight process)"
+          ]
+        },
+        {
+          "question": "Qual método é usado para iniciar uma thread?",
+          "points": 3,
+          "correct": 1,
+          "type": "individual",
+          "options": [
+            "run()",
+            "start()",
+            "execute()",
+            "init()"
+          ]
+        },
+        {
+          "question": "Qual método é bloqueante em Java?",
+          "points": 4,
+          "correct": 0,
+          "type": "team",
+          "options": [
+            "join()",
+            "isAlive()",
+            "getName()",
+            "getId()"
+          ]
+        },
+        {
+          "question": "O que significa 'synchronized' em Java?",
+          "points": 5,
+          "correct": 2,
+          "type": "team",
+          "options": [
+            "Executa código em paralelo",
+            "Desativa threads",
+            "Garante exclusão mútua no acesso a um recurso",
+            "Aumenta a velocidade de execução"
+          ]
+        },
+        {
+          "question": "Qual estrutura de dados é thread-safe em Java?",
+          "points": 4,
+          "correct": 1,
+          "type": "individual",
+          "options": [
+            "ArrayList",
+            "Vector",
+            "LinkedList",
+            "HashMap"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PCD-Concorrencia",
+      "questions": [
+        {
+          "question": "O que é uma condição de corrida (race condition)?",
+          "points": 5,
+          "correct": 1,
+          "type": "individual",
+          "options": [
+            "Quando uma thread é mais rápida que outra",
+            "Quando múltiplas threads acedem simultaneamente a dados partilhados sem sincronização",
+            "Quando uma thread vence uma competição",
+            "Quando o CPU executa instruções muito rapidamente"
+          ]
+        },
+        {
+          "question": "O que é um deadlock?",
+          "points": 6,
+          "correct": 2,
+          "type": "team",
+          "options": [
+            "Uma thread que termina abruptamente",
+            "Um erro de compilação",
+            "Situação onde duas ou mais threads esperam indefinidamente umas pelas outras",
+            "Uma thread que executa código infinitamente"
+          ]
+        },
+        {
+          "question": "Qual método liberta o lock e espera notificação?",
+          "points": 4,
+          "correct": 3,
+          "type": "team",
+          "options": [
+            "notify()",
+            "sleep()",
+            "yield()",
+            "wait()"
+          ]
+        },
+        {
+          "question": "Qual palavra-chave garante visibilidade entre threads?",
+          "points": 3,
+          "correct": 2,
+          "type": "individual",
+          "options": [
+            "static",
+            "final",
+            "volatile",
+            "transient"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PCD-Sincronizacao",
+      "questions": [
+        {
+          "question": "Qual é o propósito de um semáforo?",
+          "points": 5,
+          "correct": 1,
+          "type": "individual",
+          "options": [
+            "Aumentar a velocidade das threads",
+            "Controlar o acesso a recursos limitados",
+            "Criar novas threads automaticamente",
+            "Parar a execução de threads"
+          ]
+        },
+        {
+          "question": "O que é uma barreira (barrier) em concorrência?",
+          "points": 6,
+          "correct": 3,
+          "type": "team",
+          "options": [
+            "Um mecanismo para parar threads permanentemente",
+            "Uma estrutura de dados thread-safe",
+            "Um tipo especial de semáforo",
+            "Um ponto de sincronização onde threads esperam umas pelas outras"
+          ]
+        },
+        {
+          "question": "Qual método deve ser chamado dentro de um bloco synchronized?",
+          "points": 4,
+          "correct": 2,
+          "type": "team",
+          "options": [
+            "start()",
+            "join()",
+            "wait()",
+            "sleep()"
+          ]
+        },
+        {
+          "question": "O que acontece quando uma thread chama notify()?",
+          "points": 3,
+          "correct": 1,
+          "type": "individual",
+          "options": [
+            "Todas as threads em wait() são acordadas",
+            "Uma thread em wait() é acordada aleatoriamente",
+            "A thread atual termina",
+            "Nada acontece"
+          ]
+        },
+        {
+          "question": "Qual problema pode ocorrer com sincronização incorreta?",
+          "points": 5,
+          "correct": 0,
+          "type": "individual",
+          "options": [
+            "Race condition",
+            "Compilação falha",
+            "Memória insuficiente",
+            "CPU overheating"
+          ]
+        }
+      ]
+    }
+  ]
+}

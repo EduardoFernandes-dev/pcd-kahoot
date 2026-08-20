@@ -1,0 +1,13 @@
+# Exclude shell scripts
+*.sh
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Java build output
+target/
+*.class
